@@ -8,7 +8,7 @@ ROOT = os.path.abspath('.') + "/"
 def parse_opt():
     parser = argparse.ArgumentParser()
     parser.add_argument('--data', type=str, default=ROOT + '/ultralytics/cfg/datasets/coco.yaml', help='dataset.yaml path')
-    parser.add_argument('--config', type=str, default=ROOT + '/ultralytics/cfg/models/v8/mamba-yolo.yaml', help='model path(s)')
+    parser.add_argument('--config', type=str, default=ROOT + '/ultralytics/cfg/models/mamba-yolo/Mamba-YOLO-T.yaml', help='model path(s)')
     parser.add_argument('--batch_size', type=int, default=512, help='batch size')
     parser.add_argument('--imgsz', '--img', '--img-size', type=int, default=640, help='inference size (pixels)')
     parser.add_argument('--task', default='train', help='train, val, test, speed or study')
