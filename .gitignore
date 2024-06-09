@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 .idea
 output_dir
+ultralytics.egg-info
 docs
 examples
 # C extensions

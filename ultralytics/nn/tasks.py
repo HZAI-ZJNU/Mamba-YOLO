@@ -297,7 +297,17 @@ class DetectionModel(BaseModel):
             s = 256  # 2x min stride
             m.inplace = self.inplace
             forward = lambda x: self.forward(x)[0] if isinstance(m, (Segment, Pose, OBB)) else self.forward(x)
-            m.stride = torch.tensor([s / x.shape[-2] for x in forward(torch.zeros(1, ch, s, s))])  # forward
+            try:
+                m.stride = torch.tensor([s / x.shape[-2] for x in forward(torch.zeros(1, ch, s, s))])  # forward
+            except Exception as e:
+                if 'Not implemented on the CPU' in str(
+                        e) or 'Input type (torch.FloatTensor) and weight type (torch.cuda.FloatTensor)' in str(
+                    e) or 'CUDA tensor' in str(e) or 'is_cuda()' in str(e) or "Cannot find backend for cpu" in str(e):
+                    self.model.to(torch.device('cuda'))
+                    m.stride = torch.tensor([s / x.shape[-2] for x in
+                                             forward(torch.zeros(2, ch, s, s).to(torch.device('cuda')))])  # forward
+                else:
+                    raise e
             self.stride = m.stride
             m.bias_init()  # only run once
         else:
