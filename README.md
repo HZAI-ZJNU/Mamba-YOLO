@@ -1,6 +1,6 @@
 # [AAAI2025] Mamba YOLO: A Simple Baseline for Object Detection with State Space Model
 
-![Python 3.11](https://img.shields.io/badge/python-3.11-g)![pytorch 2.3.0](https://img.shields.io/badge/pytorch-2.3.0-blue.svg)[![docs](https://img.shields.io/badge/docs-latest-blue)](README.md)
+![Python 3.11](https://img.shields.io/badge/python-3.11-g) ![pytorch 2.3.0](https://img.shields.io/badge/pytorch-2.3.0-blue.svg) [![docs](https://img.shields.io/badge/docs-latest-blue)](README.md)
 
 
 <div align="center">
