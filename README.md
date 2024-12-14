@@ -27,7 +27,7 @@ We've pre-trained YOLO-World-T/M/L from scratch and evaluate on the `MSCOCO2017 
 
 ### 1. Installation
 
-YOLO-World is developed based on `torch==2.3.0` `pytorch-cuda==12.1` and `CUDA Version==12.6`. 
+Mamba YOLO is developed based on `torch==2.3.0` `pytorch-cuda==12.1` and `CUDA Version==12.6`. 
 
 #### 2.Clone Project 
 
