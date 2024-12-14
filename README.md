@@ -4,7 +4,7 @@
 ![pytorch 2.3.0](https://img.shields.io/badge/pytorch-2.3.0-blue.svg)
 [![docs](https://img.shields.io/badge/docs-latest-blue)](README.md)
 
-![](asserts/SOTACompare.png)
+![](asserts/mambayolo.jpg)
 
 ## Model Zoo
 
