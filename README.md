@@ -9,7 +9,8 @@
 
 ## Model Zoo
 
-We've pre-trained YOLO-World-T/M/L from scratch and evaluate on the `MSCOCO2017 val` . 
+We've pre-trained YOLO-World-T/M/L from scratch and evaluate on the `MSCOCO2017 val`. 
+
 ### Inference on MSCOCO2017 dataset
 
 
