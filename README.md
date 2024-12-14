@@ -4,7 +4,10 @@
 ![pytorch 2.3.0](https://img.shields.io/badge/pytorch-2.3.0-blue.svg)
 [![docs](https://img.shields.io/badge/docs-latest-blue)](README.md)
 
-<div align=center><img src="./asserts/mambayolo.jpg"></div>
+
+<div align="center">
+  <img src="./asserts/mambayolo.jpg" width="800px"/>
+</div>
 
 ## Model Zoo
 
