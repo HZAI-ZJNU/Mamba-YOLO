@@ -1,5 +1,5 @@
 # [AAAI2025] Mamba YOLO: A Simple Baseline for Object Detection with State Space Model
-
+#####Zeyu Wang, Chen Li, Huiying Xu, Xinzhong Zhu, Hongbo Li
 ![Python 3.11](https://img.shields.io/badge/python-3.11-g) ![pytorch 2.3.0](https://img.shields.io/badge/pytorch-2.3.0-blue.svg) [![docs](https://img.shields.io/badge/docs-latest-blue)](README.md)
 
 
@@ -84,13 +84,13 @@ This repo is modified from open source real-time object detection codebase [Ultr
 If you find [Mamba-YOLO](https://github.com/HZAI-ZJNU/Mamba-YOLO) is useful in your research or applications, please consider giving us a star 🌟 and citing it.
 
 ```bibtex
-@misc{wang2024mambayolossmsbasedyolo,
-      title={Mamba YOLO: SSMs-Based YOLO For Object Detection}, 
-      author={Zeyu Wang and Chen Li and Huiying Xu and Xinzhong Zhu},
-      year={2024},
-      eprint={2406.05835},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2406.05835}, 
+@inproceedings{wang2025mamba,
+  title={Mamba yolo: A simple baseline for object detection with state space model},
+  author={Wang, Zeyu and Li, Chen and Xu, Huiying and Zhu, Xinzhong and Li, Hongbo},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={39},
+  number={8},
+  pages={8205--8213},
+  year={2025}
 }
 ```
